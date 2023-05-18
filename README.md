@@ -1,5 +1,15 @@
 # Copy data from local filesystem to Azure Container
 
+## How it works
+
+When you run firts time copy all files from source to destination.
+
+Sequential runs will copy only files changed (overwrite) or new created.
+
+Does not copy empty folders.
+
+Last time (date in ISO format) when script run is stored into a local file automatically created / updated every run. 
+
 ## Pre requirements
 
 ### 1. Install azcopy
@@ -54,10 +64,10 @@ Copy the URL and paste in a safe place. I suggest to regenerate it from time to 
 
 ## Setting up and schedule
 
-### 5. Download the script locally
+### 1. Download the script locally
 
 Update it according to your needs: place where are files and destination
 
-### 6. Schedule it 
+### 2. Schedule it 
 
 If applicable, use task scheduler to run this on regular basis
