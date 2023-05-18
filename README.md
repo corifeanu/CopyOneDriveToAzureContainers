@@ -52,6 +52,8 @@ Click Generate SAS token and URL button
 
 Copy the URL and paste in a safe place. I suggest to regenerate it from time to time.
 
+## Setting up and schedule
+
 ### 5. Download the script locally
 
 Update it according to your needs: place where are files and destination
