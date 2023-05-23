@@ -2,13 +2,13 @@
 
 ## How it works
 
-When you run firts time copy all files from source to destination.
+When you run firts time, it will copy all files from source to destination.
 
 Sequential runs will copy only files changed (overwrite) or new created.
 
 Does not copy empty folders.
 
-Last time (date in ISO format) when script run is stored into a local file automatically created / updated every run. 
+Last time and date (ISO format) when script run, is stored into a local file automatically created / updated every run. 
 
 ## Pre requirements
 
