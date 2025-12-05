@@ -8,7 +8,7 @@ Sequential runs will copy only files changed (overwrite) or new created.
 
 Does not copy empty folders.
 
-Last time and date (ISO format) when script run, is stored into a local file automatically created / updated every run. 
+The Last time and date (ISO format) when script run, is stored into a local file automatically created / updated every run. 
 
 ## Pre requirements
 
